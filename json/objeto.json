@@ -1,0 +1,51 @@
+[
+    {
+        "Nombre": "milton",
+        "Apellidos": "figueredo",
+        "CI": "838383",
+        "Correo": "milton@algo.com",
+        "NombreUsuario": "mltn"
+    },
+    {
+        "Nombre": "asdzzz",
+        "Apellidos": "zxczz",
+        "CI": "45612355",
+        "Correo": "asd@algo.comz",
+        "NombreUsuario": "asdzz"
+    },
+    {
+        "Nombre": "nueva",
+        "Apellidos": "pruebassss",
+        "CI": "3003030",
+        "Correo": "np@j.k",
+        "NombreUsuario": "no"
+    },
+    {
+        "Nombre": "prueba",
+        "Apellidos": "json",
+        "CI": "789456",
+        "Correo": "pr@js.c",
+        "NombreUsuario": "json"
+    },
+    {
+        "Nombre": "nueva",
+        "Apellidos": "prueva",
+        "CI": "546546546",
+        "Correo": "json@d.j",
+        "NombreUsuario": "jsnp"
+    },
+    {
+        "Nombre": "revision",
+        "Apellidos": "nueva",
+        "CI": "987979797",
+        "Correo": "rn@kj.l",
+        "NombreUsuario": "rnrn"
+    },
+    {
+        "Nombre": "uno",
+        "Apellidos": "mas",
+        "CI": "930389",
+        "Correo": "deajoidj2@KLFLSFJ.KDJSDJ",
+        "NombreUsuario": "JSFKJ"
+    }
+]
