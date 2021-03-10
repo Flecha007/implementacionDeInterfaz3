@@ -177,6 +177,7 @@ input{
 }
 
 .cont-tabla_mod{
+    justify-content:center;
     grid-template-columns: repeat(6, 1fr);
     width: 98%;
     min-width: 1000px;
@@ -196,6 +197,9 @@ input{
     min-width: 1000px;
     grid-auto-rows: 25px
 }
+
+
+
 .tabla-input{
     display: block;
     padding-left: 10px;

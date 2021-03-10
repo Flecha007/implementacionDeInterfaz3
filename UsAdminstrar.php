@@ -8,53 +8,44 @@
     <script src="js/jquery-3.5.1.js"></script>
 </head>
 <body>
-  
-<header class="main-header">
+
+    <nav class="main-nav">
         <div class="container container--flex">
-            <div class="logo-container column column--50">
-            </div>
-            <div class="main-header__contactInfo column column--50">
-                <p class="main-header__contactInfo__phone">
-                    <spam class="icon-phine">55-555-555</spam>
-                </p>
-                <p class="main-header__contactInfo__address">
-                    <spam class="icon-location">La Paz - Bolivia</spam>
-                </p>
-            </div>
+            <spam class="icon-menu" id="btnmenu"><img src="img/menu.png" alt=""></spam>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="inicioUS.php" class="menu__link menu__link--select">INICIO</a></li>
+                <li class="menu__item"><a href="UsAdminstrar.php" class="menu__link">ADMINISTRAR</a></li>
+                <li class="menu__item"><a href="Rventas.php" class="menu__link">REGISTRAR VENTAS</a></li>
+                <li class="menu__item"><a href="estadisticas.php" class="menu__link">ESTADISTICAS</a></li>
+            </ul>
         </div>
-    </header>
+    </nav>
     
+
     
         
         <section class="group today-special">
-
-            <section class="banner">
-        <img src="img/img7.jpeg" alt="" class="banner__img">
-        <div class="banner__content">
-        HOTEL EL MAS ALLA
-        <div class="log">
-            <br>
-                <form method="post" class="formReg">
-                   <h3 class="TituloForm">INICIAR SESION</h3>
-                    <div class="contenedorInputs">
-                        <input type="text" name="usuario" placeholder="Usuario" class="inputlog" required>
-                        <input type="password" name="password" placeholder="Contraseña" class="inputlog" required>
-                        <input type="submit" name="ingresa" value="INGRESAR" class="btnlog">
-
-                    </div>
-                </form>
-
-                <?php 
-                   include("Rest/login.php");
-               ?>
+            <h1 id="Encuesta" class="group__title">Opciones a elegir</h1>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/usuario.png" alt="" class="today-special__img">
+                    <a href="Usuarios.php" class="btn btn--contact">USUARIOS</a>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/ventas.png" alt="" class="today-special__img">
+                    <a href="Aventas.php" class="btn btn--contact">VENTAS</a>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/paquetes.jpg" alt="" class="today-special__img">
+                    <a href="Paquetes.php" class="btn btn--contact">PAQUETES</a>
+                </div>
             </div>
-
-        </div>
-    </section>
         </section>
         
     </main>
-
+    <br>
+    <br>
+    <br>
     <footer class="main-footer">
             <div class="container container--flex">
                 <div class="column column--33">
@@ -73,7 +64,7 @@
                     <p class="column__txt"><a href="" class="icon-WhatsApp">WhatsApp</a></p>
                     <p class="column__txt"><a href="" class="icon-Gmail">Gmail</a></p>
                 </div>
-                <p class="copy">© 202 Encuestas DLRT's | Todos los derechos reservados</p>
+                <p class="copy">© 2021 DLRT's Hotles| Todos los derechos reservados</p>
             </div>
         </footer>
         
